@@ -1,3 +1,5 @@
+constructionMessage("Denna sida är under uppbyggnad, kom gärna tillbaka senare för mer innehåll =)")
+
 //education-carousel
 let swiperEdu = new Swiper(".mySwiperEducation", {
     slidesPerView: "auto",
@@ -49,3 +51,16 @@ let swiperEdu = new Swiper(".mySwiperEducation", {
     sr.reveal('.js-reveal-3', {duration:1400});
   }
   revealFunction();
+
+
+  function constructionMessage (text) {
+    let modal = document.createElement("div");
+    let welcomeSection = document.querySelector("#welcome-section");
+    modal.innerText = text;
+    modal.className = "construction-modal";
+    welcomeSection.prepend(modal);
+    setTimeout(() => {
+      welcomeSection.removeChild(modal);
+    }, 5000);
+  
+  }
