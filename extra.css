@@ -1,12 +1,4 @@
-/* @font-face {
-    font-family: Habana;
-    src: url(font/Habana.ttf) format('truetype');
-    font-family: 'Lexend', sans-serif;
-font-family: 'Zilla Slab', serif;
-}*/
-/* body {
-    font-family: 'Zilla Slab', serif;
-}  */
+
 .text-shadow-23 {
     text-shadow: -13px 11px 10px rgba(0,0,0,23%);
 }
@@ -37,7 +29,7 @@ font-family: 'Zilla Slab', serif;
     width: 100%;
 }
 
-@media (min-width: 1100px) {
+/* @media (min-width: 1100px) {
 
 .education .vertical-carousel::before {
      
@@ -61,4 +53,23 @@ font-family: 'Zilla Slab', serif;
         top: -8%;
         box-shadow: -13px 11px 10px rgba(0,0,0,23%);
         }
+} */
+
+
+/* @media (min-width: 1024px) {
+.dot {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #5e6072;
+        
 }
+.education .dot {
+        left: -1px;
+}
+.experience .dot{
+
+        right: 1px;
+}
+} */

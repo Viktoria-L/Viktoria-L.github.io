@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     minWidth: {
       250: "250px",
+      512: "512px",
       auto: "auto",
+    },
+    minHeight: {
+      0: "0",
+      250: "250px",
     },
     extend: {
       spacing: {
@@ -29,7 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        zilla: "Zilla Slab",
+        montserrat: "Montserrat",
       },
     },
     textShadow: {

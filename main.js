@@ -10,13 +10,13 @@ let swiperEdu = new Swiper(".mySwiperEducation", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    breakpoints: {
-      1100: {
-        spaceBetween: 0,
-        slidesPerView: 3,
-        direction: "vertical",
-      },
-    },
+    // breakpoints: {
+    //   1100: {
+    //     spaceBetween: 0,
+    //     slidesPerView: 3,
+    //     direction: "vertical",
+    //   },
+    // },
   });
   
   let swiperExp = new Swiper(".mySwiperExperience", {
@@ -30,13 +30,13 @@ let swiperEdu = new Swiper(".mySwiperEducation", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    breakpoints: {
-      1100: {
-        spaceBetween: 0,
-        slidesPerView: 3,
-        direction: "vertical",
-      },
-    },
+    // breakpoints: {
+    //   1100: {
+    //     spaceBetween: 0,
+    //     slidesPerView: 3,
+    //     direction: "vertical",
+    //   },
+    // },
   });
   
   //Scrollreveal
