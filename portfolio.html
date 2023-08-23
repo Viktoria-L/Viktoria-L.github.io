@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktoria Lindberg</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="extra.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f43b64805c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-my-900 h-screen m-0 p-0 overflow-x-hidden scroll-smooth relative">
+              
+        <header class=" bg-my-900 w-screen max-w-screen-xl text-my-200  sm:my-0 sm:mx-auto sm:w-full sm:max-w-7xl sm:flex sm:flex-row sm:justify-end">
+            <div class="navbar flex justify-between mx-4 my-7 sm:w-3/6">
+                <div class="item js-reveal-1">
+                    <a href="./index.html" class="no-underline text-lg font-bold text-shadow-23 relative">Startsida</a>
+                </div>
+                <div class="item js-reveal-2">
+                    <a href="./index.html#education" class="no-underline text-lg font-bold text-shadow-23 relative">Utbildning</a>
+                </div>
+                <div class="item js-reveal-3">
+                    <a href="#portfolio" class="no-underline text-lg font-bold text-shadow-23 relative">Portfolio</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="project-section">
+                <div class="portfolio-section w-screen py-12 bg-my-900" id="portfolio">
+                    <div class="containerDiv max-w-screen-xl ps-4 pe-4 my-0 mx-auto relative flex flex-col">
+                        <div class="intro m-4">
+                            <h1 class="default-title text-2xl sm:text-4xl leading-7 font-semibold mb-8 text-my-200 text-shadow-33">Välkommen till min portfolio!</h1>
+                            <h2 class="default-text sm:mr-0 mr-2 text-md sm:text-lg leading-6 font-medium text-my-200">Här visar jag mina senaste projekt med lite information om vilka teknologier som använts och länkar till kod samt bilder eller i de fall där det finns en github-page. </h2>
+                        </div>
+
+                        <div class="projects flex flex-wrap justify-evenly">
+                            <!-- PROJEKT 1 -->
+                            <div class="project w-[350px] sm:min-w-512 ml-2 mr-2 my-5 flex gap-4 bg-my-400 rounded-md p-5 flex-col justify-between box-shadow-23">
+                                <div class="texts">
+                                    <h3 class="default-title text-xl leading-7 font-semibold text-my-200 text-shadow-33">Bokaffär</h3>
+                                    <span class="default-text sm:mr-0 mr-2 text-lg leading-6 font-medium text-my-200">Examinationsuppgift i kursen Interaktion med.</span>
+                                </div>
+                                
+                                <div class="images flex flex-wrap gap-2 justify-center sm:justify-between">                               
+                                    <img src="./assets/bookducks1.jpg" id="myImg" alt="Book Ducks bokaffär, första sidan som inloggad." class="myImg w-[225px] h-[200px]">
+                                    <img src="./assets/bookducks2.jpg" alt="Book Ducks bokaffär, profilsida" class="myImg w-[225px] h-[200px]">
+                                </div>
+                                <div class="default-btn flex justify-center">
+                                    <a href="https://github.com/Viktoria-L/book-ducks-assignment" target="_blank"><button class="bg-my-300 rounded-sm w-32 h-8 mr-2 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100">Projekt<i class="fa-solid fa-up-right-from-square ml-1"></i></button>
+                                    <button class="bg-my-300 rounded-sm h-8 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100"><i class="fa-brands fa-github mx-1"></i></button></a>
+                                </div>
+                                <div class="boxes flex justify-center">
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">Javascript</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">CSS</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">CMS - Strapi</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">HTML</span>
+                                </div>
+                            </div>
+                             <!-- PROJEKT 2 -->
+                            <div class="project w-[350px] sm:min-w-512 my-5 flex gap-4 bg-my-400 rounded-md p-5 flex-col justify-between box-shadow-23">
+                                <div class="texts">
+                                    <h3 class="default-title text-xl leading-7 font-semibold text-my-200 text-shadow-33">Företagssida</h3>
+                                    <span class="default-text sm:mr-0 mr-2 text-lg leading-6 font-medium text-my-200">Examinationsuppgift i kursen HTML & CSS.</span>
+                                </div>
+                                
+                                <div class="images flex flex-wrap justify-center">                               
+                                    <img src="./assets/art-of-plants1.jpg" id="myImg" alt="Startsida Art of Plants." class="myImg w-[450px] h-[300px]">
+        
+                                </div>
+                                <div class="default-btn flex justify-center">
+                                    <a href="https://viktoria-l.github.io/HTML-CSS-School-Assignment/" target="_blank"><button class="bg-my-300 rounded-sm w-32 h-8 mr-2 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100">Projekt<i class="fa-solid fa-up-right-from-square ml-1"></i></button></a>
+                                    <a href="https://github.com/Viktoria-L/HTML-CSS-School-Assignment" target="_blank"><button class="bg-my-300 rounded-sm h-8 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100"><i class="fa-brands fa-github mx-1"></i></button></a>
+                                </div>
+                                <div class="boxes flex justify-center">
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">Javascript</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">CSS</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">HTML</span>
+                                </div>
+                            </div>
+
+                              <!-- PROJEKT 3 -->
+                              <div class="project w-[350px] sm:min-w-512 my-5 flex gap-4 bg-my-400 rounded-md p-5 flex-col justify-between box-shadow-23">
+                                <div class="texts">
+                                    <h3 class="default-title text-xl leading-7 font-semibold text-my-200 text-shadow-33">Star Wars Trivia</h3>
+                                    <span class="default-text sm:mr-0 mr-2 text-lg leading-6 font-medium text-my-200">Examinationsuppgift i kursen Javascript 2.</span>
+                                </div>
+                                
+                                <div class="images flex flex-wrap justify-center">                               
+                                    <img src="./assets/star-wars-trivia.jpg" id="myImg" alt="Sida för att jämföra karaktärer i Star Wars." class="myImg w-[450px] h-[300px]">        
+                                </div>
+                                <div class="default-btn flex justify-center">
+                                    <a href="https://viktoria-l.github.io/Javascript-2-assignment-Star-Wars/" target="_blank"><button class="bg-my-300 rounded-sm w-32 h-8 mr-2 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100">Projekt<i class="fa-solid fa-up-right-from-square ml-1"></i></button></a>
+                                    <a href="https://github.com/Viktoria-L/Javascript-2-assignment-Star-Wars" target="_blank"><button class="bg-my-300 rounded-sm h-8 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100"><i class="fa-brands fa-github mx-1"></i></button></a>
+                                </div>
+                                <div class="boxes flex justify-center">
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">Javascript</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">CSS</span>
+                                    <span class="bg-my-800 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200 box-shadow-23 rounded-md">HTML</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                                <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- The Close Button -->
+                            <span class="close">&times;</span>            
+                            <!-- Modal Content (The Image) -->
+                            <img class="modal-content" id="img01">            
+                            <!-- Modal Caption (Image Text) -->
+                            <div id="caption"></div>
+                        </div>
+
+
+                        <!-- <div class="content w-full flex justify-between items-center flex-wrap mx-2">
+                            <div class="text w-full mb-10 sm:mr-0 mr-8 sm:w-4/12">
+                                <span class="s-label text-my-300 text-xs tracking-[7px] mb-6 block js-reveal-0">- portfolio</span>
+                                <div class="default-title text-xl leading-7 font-semibold mb-8 text-my-200 text-shadow-33">
+                                    <span>Mina senaste projekt</span>
+                                </div>
+                                <div class="default-text sm:mr-0 mr-2 text-lg leading-6 font-medium text-my-100">
+                                    <span class="font-montserrat">Här är de senaste projekten jag arbetat fram med länkar till koden och sidan för projektet. För fler projekt kolla in min portfolio (under utveckling!).
+                                    </span>
+                                    <button class="w-48 h-8 rounded-sm bg-my-300 my-2 text-my-100 no-underline text-lg font-bold cursor-pointer tracking-widest flex justify-center outline-none box-shadow-33 transition-all border-2 border-transparent border-solid hover:border-my-100"><a href="./portfolio.html">Portfolio</a></button>
+                                </div>        
+                            </div>
+        
+        
+                            <div class="project w-full h-80 mr-8 overflow-hidden relative mb-10 box-shadow-33 sm:w-2/5 project-1 js-reveal-0">
+                                    <img src="./assets/star-wars-trivia.jpg" alt="Project 1" class="bg-img absolute z-10 w-full h-full object-cover object-center">
+                                    <div class="action bg-white bg-opacity-10 rounded-sm backdrop-blur-sm absolute top-50 left-50 w-1/2 h-1/2 -translate-x-2/4 -translate-y-2/4 z-30 text-center text-my-100 flex flex-col justify-center">
+                                        <span class="block text-xl font-semibold">Star Wars Trivia</span>
+                                        <span class="block text-xs">Javascript 2 examinationsuppgift</span>
+                                        <div class="default-btn flex mt-4 justify-center">
+                                            <a href="https://viktoria-l.github.io/Javascript-2-assignment-Star-Wars/" target="_blank"><button class="bg-my-300 rounded-sm w-32 h-8 mr-2 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100">Projekt<i class="fa-solid fa-up-right-from-square ml-1"></i></button></a>
+                                            <a href="https://github.com/Viktoria-L/Javascript-2-assignment-Star-Wars" target="_blank"><button class="bg-my-300 rounded-sm h-8 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100"><i class="fa-brands fa-github mx-1"></i></button></a>
+                                        </div>     
+                                    </div>
+                            </div>
+                        </div>
+        
+                        <div class="content w-full flex justify-between items-center flex-wrap mx-2">
+        
+                            <div class="project w-full h-80 overflow-hidden sm:mr-0 mr-8 mb-12 sm:mb-0 relative box-shadow-33 sm:w-2/5 project-1 js-reveal-0">
+                                    <img src="./assets/bookducks1.jpg" alt="Project 1" class="bg-img absolute z-10 w-full h-full object-cover object-center">
+                                    <div class="action bg-black bg-opacity-20 rounded-sm backdrop-blur-sm absolute top-50 left-50 w-1/2 h-1/2 -translate-x-2/4 -translate-y-2/4 z-30 text-center text-my-100 flex flex-col justify-center">
+                                        <span class="block text-xl font-semibold text-my-100">Book Ducks bokaffär</span>
+                                        <span class="block text-xs text-my-100">Interaktion med Strapi CMS examinationsuppgift</span>
+                                        <div class="default-btn flex mt-4 justify-center">
+                                            <a href="https://github.com/Viktoria-L/book-ducks-assignment" target="_blank"><button class="bg-my-300 rounded-sm w-32 h-8 mr-2 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100">Projekt<i class="fa-solid fa-up-right-from-square ml-1"></i></button>
+                                            <button class="bg-my-300 rounded-sm h-8 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100"><i class="fa-brands fa-github mx-1"></i></button></a>
+                                        </div>     
+                                    </div>
+                            </div>
+                            
+                            <div class="project w-full h-80 mr-8 overflow-hidden relative box-shadow-33 sm:w-2/5 project-1 js-reveal-0">
+                                    <img src="./assets/art-of-plants1.jpg" alt="Project 1" class="bg-img absolute z-10 w-full h-full object-cover object-center">
+                                    <div class="action bg-black bg-opacity-20 rounded-sm backdrop-blur-sm absolute top-50 left-50 w-1/2 h-1/2 -translate-x-2/4 -translate-y-2/4 z-30 text-center text-my-100 flex flex-col justify-center">
+                                        <span class="block text-xl font-semibold text-my-100">Art of Plants</span>
+                                        <span class="block text-xs text-my-100">HTML/CSS examinationsuppgift</span>
+                                        <div class="default-btn flex mt-4 justify-center">
+                                            <a href="https://viktoria-l.github.io/HTML-CSS-School-Assignment/" target="_blank"><button class="bg-my-300 rounded-sm w-32 h-8 mr-2 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100">Projekt<i class="fa-solid fa-up-right-from-square ml-1"></i></button></a>
+                                            <a href="https://github.com/Viktoria-L/HTML-CSS-School-Assignment" target="_blank"><button class="bg-my-300 rounded-sm h-8 text-my-100 no-underline text-base font-bold cursor-pointer tracking-widest outline-none transition-all border-2 border-transparent border-solid hover:border-my-100"><i class="fa-brands fa-github mx-1"></i></button></a>
+                                        </div>     
+                                    </div>
+                            </div>
+                        </div> -->
+
+                        </div>
+                    </div>
+                </div>
+        
+            </section>
+
+           
+        </main>
+    </div>
+
+
+
+
+<!-- Swiper.JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+</body>
+</html>
