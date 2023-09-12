@@ -12,6 +12,12 @@
     box-shadow: -13px 11px 10px rgba(0,0,0,33%);
 }
 
+::selection {
+  background-color: #fec158;
+  color: black;
+}
+
+
 .item a::after{
     content: "";
     position: absolute;
