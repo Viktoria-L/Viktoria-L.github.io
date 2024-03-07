@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer className="bg-my-900 h-52">
-      <div className="text-center gap-4 pt-4 flex flex-col justify-between h-full">
+      <div className="text-center gap-4 sm:pt-4 flex flex-col justify-between h-full">
         <div className="default-title sm:text-lg leading-7 pt-2 font-semibold text-my-200 text-shadow-33">
           <span>
             Kontakta mig gärna om du har frågor eller om du vill starta ett

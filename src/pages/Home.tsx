@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <>
-    <section id="welcome-section" className="h-screen flex flex-col xl:justify-evenly">
+    <section id="welcome-section" className="flex flex-col xl:justify-evenly">
         <Aboutme />    
     
         <div className="bottom bg-my-400 pb-12 px-0">
