@@ -33,7 +33,7 @@ const Projects = () => {
   }, []);
 
    return (
-    <div className="flex flex-col justify-center items-center pt-20">
+    <div className="flex flex-col justify-center items-center pt-10 sm:pt-20">
       <div>
         <div className="relative w-full flex mx-2 justify-center items-center">
           <div className="title default-title text-xl leading-7 font-semibold mb-6 text-my-100 text-shadow-33">
@@ -78,9 +78,9 @@ const Projects = () => {
                 </button>)}
                  </div>
                     <div className="boxes flex flex-wrap  mt-4">
-                      {project.techstack.map((stack) => (
+                      {project.techstack.map((stack, i) => (
 
-                        <span className="bg-my-500 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200  rounded-md">
+                        <span key={i} className="bg-my-500 flex justify-center items-center flex-nowrap mr-2 p-1 mb-1 text-sm font-bold text-my-200  rounded-md">
                        {stack}
                       </span>
                         ))}
