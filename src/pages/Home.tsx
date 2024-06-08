@@ -1,42 +1,37 @@
-import { Aboutme } from "../components/Aboutme"
-import { Infobox } from "../components/Infobox"
+import { Aboutme } from '../components/Aboutme';
+import { Infobox } from '../components/Infobox';
+import { LatestsProjectsSection } from '../components/LatestsProjectsSection';
 //import { LatestsProjectsSection } from "../components/LatestsProjectsSection"
 // import { QuickInfoBoxes } from "../components/QuickInfoBoxes"
-import { Skills } from "../components/Skills"
-
+import { Skills } from '../components/Skills';
 
 const Home = () => {
-
-
   return (
     <>
-    <section id="welcome-section" className="flex flex-col xl:justify-evenly">
-        <Aboutme />    
-    
-        <div className="bottom bg-my-400 pb-12 px-0">
-            <div className="containerDiv max-w-screen-xl ps-4 pe-4 my-0 mx-auto relative flex justify-between items-center flex-wrap">
-                <Infobox />
+      <section id="welcome-section" className="flex flex-col xl:justify-evenly">
+        <Aboutme />
 
-                <div className="skills sm:w-5/12 sm:mb-0 flex flex-col justify-between mx-2">
-                    <div className="default-title sm:mb-5 text-xl leading-7 font-semibold mb-8 text-my-200 text-shadow-33">
-                        <span>Mina kompetenser</span>
-                    </div>
-                    <Skills />
-                </div>
+        <div className="bottom bg-my-400 pb-12 px-0">
+          <div className="containerDiv max-w-screen-xl ps-4 pe-4 my-0 mx-auto relative flex justify-between items-center flex-wrap">
+            <Infobox />
+
+            <div className="skills sm:w-5/12 sm:mb-0 flex flex-col justify-between mx-2">
+              <div className="default-title sm:mb-5 text-xl leading-7 font-semibold mb-8 text-my-200 text-shadow-33">
+                <span>Mina kompetenser</span>
+              </div>
+              <Skills />
             </div>
-           
-            {/* <div className="practice-section w-screen">               
+          </div>
+
+          {/* <div className="practice-section w-screen">               
                 <QuickInfoBoxes />          
             </div> */}
-        </div>    
-    </section>
+        </div>
+      </section>
 
+      <LatestsProjectsSection />
 
-    {/* <LatestsProjectsSection /> */}
-
-
-
-{/* 
+      {/* 
 
     <section id="experience-education">
         <div className="experience-education-section bg-my-400 py-16 px-0">
@@ -154,9 +149,9 @@ const Home = () => {
                     </div>
                 </div>  */}
 
-                {/* <Education /> */}
-        
-                {/* <div className="experience box w-full text-end mt-16 lg:mt-0" id="experience">
+      {/* <Education /> */}
+
+      {/* <div className="experience box w-full text-end mt-16 lg:mt-0" id="experience">
                     <span className="s-label text-my-300 text-xs tracking-[7px] mb-6 block js-reveal-0">- erfarenhet</span>
                     <div className="default-title text-xl leading-7 font-semibold mb-8 text-my-200 text-shadow-33">
                         <span className="block">Erfarenhet och praktik:</span>
@@ -201,17 +196,13 @@ const Home = () => {
                     </div>
                 </div> */}
 
-
-            {/* </div>
+      {/* </div>
         </div>
     </section> */}
 
- {/* */}
+      {/* */}
+    </>
+  );
+};
 
-       
-   </>
-    
-  )
-}
-
-export default Home
+export default Home;

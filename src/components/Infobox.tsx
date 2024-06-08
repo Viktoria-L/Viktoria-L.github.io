@@ -5,14 +5,14 @@ export const Infobox = () => {
         - aktuellt
       </span>
       <div className="default-title text-xl leading-7 font-semibold mb-6 text-my-200 text-shadow-33">
-        <span>Nu är det inte långt kvar till examen!</span>
+        <span>Redo för nya äventyr!</span>
       </div>
       <div className="default-text text-md tracking-wide leading-6 font-medium text-my-200">
         <span className="font-montserrat">
-          Jag gör just nu mitt examensarbete där jag utvecklar en
-          musikstreaming-hemsida (likt Spotify). Jag ser SÅ framemot att få
-          komma ut i arbetslivet som frontend-utvecklare! Har ni tips på något
-          spännande jobb eller uppdrag, tveka inte att höra av er!
+          Jag har nu tagit examen och söker efter ett spännande och utvecklande
+          jobb. Jag ser SÅ framemot att få komma ut i arbetslivet som
+          frontend-utvecklare! Har ni tips på något spännande jobb eller
+          uppdrag, tveka inte att höra av er!
         </span>
       </div>
       <div className="default-btn w-full mt-10 flex justify-center items-center flex-nowrap sm:items-start js-reveal-1">
