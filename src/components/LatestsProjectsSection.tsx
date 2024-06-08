@@ -22,7 +22,7 @@ export const LatestsProjectsSection = () => {
                   och till koden. För fler projekt kolla in min portfolio.
                 </span>
                 <button className="w-48 h-8 rounded-sm bg-my-300 my-2 mt-4 text-my-100 no-underline text-lg font-bold cursor-pointer tracking-widest flex justify-center outline-none box-shadow-33 transition-all border-2 border-transparent border-solid hover:border-my-100">
-                  <a href="/portfolio">Portfolio</a>
+                  <a href="./portfolio">Portfolio</a>
                 </button>
               </div>
             </div>
