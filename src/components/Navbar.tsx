@@ -29,9 +29,9 @@ export const Navbar = () => {
                 <div className="item js-reveal-3">
                     <NavLink to="/experience" className="no-underline text-lg font-semibold text-shadow-23 relative">Erfarenhet</NavLink>
                 </div>
-                <div className="item js-reveal-3">
+                {/* <div className="item js-reveal-3">
                     <NavLink to="/about" className="no-underline text-lg font-semibold text-shadow-23 relative">Om mig</NavLink>
-                </div>
+                </div> */}
               </div>
           </div>
 
@@ -52,7 +52,7 @@ export const Navbar = () => {
         <NavLink to="/portfolio" className="no-underline text-lg font-semibold text-shadow-23 relative">Portfolio</NavLink>
         <NavLink to="/education" className="no-underline text-lg font-semibold text-shadow-23 relative">Utbildning</NavLink>
         <NavLink to="/experience" className="no-underline text-lg font-semibold text-shadow-23 relative">Erfarenhet</NavLink>
-        <NavLink to="/about" className="no-underline text-lg font-semibold text-shadow-23 relative">Om mig</NavLink>
+        {/* <NavLink to="/about" className="no-underline text-lg font-semibold text-shadow-23 relative">Om mig</NavLink> */}
       
       </div>
  

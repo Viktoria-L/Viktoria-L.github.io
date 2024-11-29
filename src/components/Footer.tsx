@@ -32,7 +32,7 @@ export const Footer = () => {
           {/* <p className="text-my-200">Denna sida är under uppbyggnad så besök mig gärna snart igen <i className="fa-solid fa-face-laugh-beam text-my-300"></i></p> */}
           <p className="text-my-200 mt-2">
             {' '}
-            &#169; Viktoria Lindberg, mars 2024
+            &#169; Viktoria Lindberg, november 2024
           </p>
         </div>
       </div>
