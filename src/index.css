@@ -207,3 +207,26 @@ color: black;
     width: 100%;
   }
 }
+
+.swiper-wrapper {
+  display: flex;
+  height: auto;
+  cursor: pointer;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: auto; 
+}
+
+.swiper-scrollbar {  
+  background-color: #404457; /* Bakgrundsfärg */
+  height: 8px; /* Höjd */
+  width: 100px;
+}
+
+.swiper-scrollbar-drag {
+  cursor: pointer;
+  width: 100px;
+  background-color: #fec158; /* Färg på handtaget */
+  border-radius: 9999px; /* Rundade hörn */
+}
