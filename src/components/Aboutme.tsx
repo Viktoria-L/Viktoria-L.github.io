@@ -47,7 +47,7 @@ export const Aboutme = () => {
             - om mig
           </span>
           <div className="title default-title text-xl leading-7 font-semibold mb-6 text-my-100 text-shadow-33">
-            <span>Frontend-Utvecklare</span>
+            <span>Frontend-Utvecklare med C#-kunskaper</span>
           </div>
           <div className="default-text font-montserrat text-md tracking-wide leading-6 mr-2 text-my-100">
             <span>
