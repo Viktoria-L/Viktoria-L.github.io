@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Triggar vid push till main
 
+permissions:
+  contents: write  # Ger Actions rätt att pusha till gh-pages
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -12,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false  # Inaktivera standardautentisering
 
       - name: Setup Git user
         run: |
@@ -32,8 +33,7 @@ jobs:
         run: npm run build  # Bygger din React-app med Vite
 
       - name: Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Använder GitHub-token
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          npm run deploy
+        uses: peaceiris/actions-gh-pages@v4  # Använder rätt deploy-action
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist  # Mappen där Vite genererar sin build
