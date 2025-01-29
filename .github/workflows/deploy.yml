@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Triggar vid push till main
 
 jobs:
   deploy:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Inaktivera standardautentisering
 
       - name: Setup Git user
         run: |
@@ -27,7 +29,11 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build  
+        run: npm run build  # Bygger din React-app med Vite
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Använder GitHub-token
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          npm run deploy
